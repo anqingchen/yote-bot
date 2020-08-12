@@ -11,4 +11,4 @@ async def on_message(message):
   if "yeet" in message.content.lower():
     await message.channel.send("yote")
 
-client.run("NzQzMTkyMDA1NzUxOTk2NTA2.XzRFfg.JNrZsNCKQy3fqqTRCIM6tTlQvbQ")
+client.run(os.getenv('BOT_TOKEN'))
