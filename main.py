@@ -5,7 +5,6 @@ client = discord.Client();
 
 @client.event
 async def on_ready():
-  client.user.
   await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name=f'yeets in {len(client.servers)} servers'))
 
 @client.event
